@@ -57,8 +57,6 @@ const FindOut = ({ ...props }) => {
         Garder, KS addresses.
       </StyledP>
 
-      <StyledP>Hope everyone is doing well and we really miss you!</StyledP>
-
       <OptionsFooter />
     </StyledDiv>
   );

@@ -40,7 +40,7 @@ export const StyledH3 = styled.h3`
 
 export const StyledP = styled.p`
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.65;
   max-width: 600px;
   margin: 0 auto;

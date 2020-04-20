@@ -11,13 +11,14 @@ function App() {
   const node = useRef();
   const menuId = "main-menu";
   useOnClickOutside(node, () => setOpen(false));
+
   return (
     <ThemeProvider theme={theme}>
       <>
         <GlobalStyles />
         <div ref={node}>
           <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
-          <BurgerMenu open={open} setOpen={setOpen} id={menuId} />
+          <BurgerMenu node={node} open={open} setOpen={setOpen} id={menuId} />
         </div>
         <Routes theme={theme} />
       </>
