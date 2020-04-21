@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  StyledButtonDiv1,
-  StyledButtonDiv2,
-  StyledAnnounce
-} from "./OurStory.styled";
+import { StyledButtonDiv1, StyledAnnounce } from "./OurStory.styled";
 import { Parallax } from "react-parallax";
 import { Anchor } from "../../components";
 
