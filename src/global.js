@@ -16,7 +16,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.primaryLight};
     text-rendering: optimizeLegibility;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 14px;
     letter-spacing: .04em;
     line-height: 1.8em;

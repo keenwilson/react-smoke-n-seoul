@@ -4,7 +4,7 @@ import { Anchor } from "../../components";
 import {
   FacebookOutlined,
   PhoneOutlined,
-  InstagramOutlined
+  InstagramOutlined,
 } from "@ant-design/icons";
 import { Divider } from "antd";
 
@@ -13,15 +13,14 @@ const FindOutMobile = ({ ...props }) => {
     <StyledDiv className="find-out-section">
       <StyledH2>Always Open</StyledH2>
       <StyledH3 className="contact-mobile">
-        Call us at
-        <br />
         <Anchor href="tel:+1-913-221-5978">
           <PhoneOutlined className="icon" />{" "}
           <span className="phone-number">(913) 221-5978</span>
         </Anchor>
-        <br />
-        if you want catering or delivery & setup menu.
       </StyledH3>
+      <StyledP className="contact-mobile">
+        Call us if you want catering <br /> or delivery & setup menu.
+      </StyledP>
       <Divider />
       <StyledP className="contact-mobile">
         Find out where we'll be, what we're serving, and "like" us on our{" "}

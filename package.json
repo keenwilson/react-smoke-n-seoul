@@ -46,7 +46,7 @@
     "verbose": true
   },
   "scripts": {
-    "start": "export PORT=3001 && react-app-rewired start",
+    "start": "export PORT=1234 && react-app-rewired start",
     "start:debug": "export PORT=3001 && REACT_APP_LOG_LEVEL=debug react-app-rewired start",
     "start:staging": "env-cmd -f .env.staging npm run start",
     "build": "react-app-rewired build",
